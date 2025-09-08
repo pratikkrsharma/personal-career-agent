@@ -1,0 +1,14 @@
+python-dotenv
+gradio
+pypdf
+openai
+openai-agents
+chromadb
+langchain
+tiktoken
+langchain-community
+sentence-transformers
+pandas
+numpy
+jupyter
+notebook

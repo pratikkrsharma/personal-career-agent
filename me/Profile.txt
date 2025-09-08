@@ -1,0 +1,82 @@
+##
+Personal Details: 
+Name - Pratik Sharma 
+Location - India 
+Phone - +91-8217824920 
+Email - pratikkrsharma@gmail.com 
+LinkedIn - linkedin.com/in/pratikkrsharma/ 
+
+##
+Bio: 
+Analytically minded and accomplished engineer having experience in building highly scalable and robust data applications, 
+pipelines and workflows for multiple organizations. I love to deep dive into business problems and find technical solutions to them. 
+To do so, I focus on to improve my technical knowledge, aptitude and logical abilities which helps me to think out of the box. 
+I am an adaptable professional who can navigate ambiguous environments and provide technical insights to maximize data value for an organization. 
+Built highly scalable and robust data pipelines for multiple organizations. 
+Worked on implementing AI solutions using Python, OpenAI Agents. 
+Analysis of data with python on multiple projects. 
+Good in learning new technologies and applying it on various business requirements. 
+
+##
+Skills:
+AI Skills: OpenAI API, Agents SDK, Langchain, CrewAI, Copilot, Cursor. 
+Advance – Python, PySpark, SQL, NoSQL, AWS, Data Analytics, Data Warehouse, Distributed Systems. 
+Intermediate – Databricks, Chatbot, NLP, NLU, OpenAI API & Packages, Airflow, Docker, Azure, CI/CD, Golang. 
+Other Tools Used – RASA, MongoDB, Postgres, MS Synapse, RDS, EC2, S3, Glue, Lambda, Jenkins, GIT. 
+
+##
+Experience:
+1. Gartner - Jan 2022 to Present - Gurugram, India 
+a. Designed and led the development of unified project to maintain analytical profile for every customer at enterprise level,
+giving all information related to their journey and engagements. Currently being used by 2500+ associates and helped saved 
+20 hours/week giving additional time to associates to focus on predictive analysis. 
+b. Historical data generated helped in providing detailed insights into customer trends and patterns to understand their behavior,
+facilitated in predicting churn rate and sales pitching of similar products. 
+c. Cut projected time for setup of new projects by two weeks by developing reusable ETL components and documentation. This 
+was presented to and approved by the architecture team at company level. 
+d. Identified free calendar slots on associates outlook using Microsoft's 
+graph API, which helped in automating meeting invitation process for clients. 
+Increased data accuracy to 99% and saved 1 hour/daily efforts of associates. 
+e. End to End automation, with efficient and accurate processing of retention 
+and finance data for key business reporting dashboards. Saved 2-3 days/
+month of manual effort of 1 full time associate. 
+f. Experience coding using CoPilot, Cursor. Implemented use cases using OpenAI APIs, Agents SDK, Langchain. Used open-source AI models provided by llama for stock report analysis, meeting summary and text to image generation. 
+
+2. Mindtree - Jun 2019 to Dec 2021 - Bengaluru, India 
+a. Developed and incorporated analytics tool for MindFlow, an internal chatbot platform, deployed it on Azure, which assisted 
+in improving the trained nlp model of chatbot. Including visualization on how users interact with the chatbot and their 
+conversation journey. 
+b. Achieved 75% increase in performance in finding text similarity by using artificial intelligence and machine learning models 
+such as glove, bert and by implementing multi/parallel processing. 
+c. Remodeled rasa nlu by new tensorflow method, thus reducing its training and classification time by 1/3rd. 
+d. Worked on the analytical side of stock recommendation app called InvestorAi, automated its usage data analytics, and 
+scheduled it for daily/weekly analytics report generation, output sent via mail. These analytics helped client in making various 
+key decisions for the future design and development of the app. 
+
+##
+Education:
+University - Visvesvaraya Technological University (VTU) 
+Year - Aug 2015 to Jun 2019 
+Degree- B.E. Computer Science & Engineering 
+Result- First Class with Distinction (FCD) 
+
+##
+Certifications: 
+1. AWS developer associate 
+2. Microsoft Azure fundamentals 
+3. and Oracle foundations associate 
+4. Understanding Machine Learning with Python 
+5. Distributed Computing with Spark SQL 
+6. Data Structures 
+7. Python Data analysis 
+
+##
+Work Highlights:
+1. Earned a spot-on award for managing our project stall at Mindtree’s annual conclave. 
+2. Introduced and innovated no touch communication poc, A youtube video of me presenting poc. 
+3. Implemented ndc demo chatbot using which users can get flight booking details and its current status. 
+
+##
+Languages: 
+1. English (Professional Working) 
+2. Hindi (Native or Bilingual)
