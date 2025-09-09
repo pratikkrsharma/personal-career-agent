@@ -8,7 +8,7 @@ sdk_version: 5.44.1
 
 A **personal AI career chatbot** built with **Gradio**, **OpenAI API (via OpenRouter)**, and **Vector Search (RAG)**.
 This assistant represents **Pratik Sharma** and answers career-related questions about his **background, skills, projects, and experience**.
-It can also capture leads by detecting when a user wants to get in touch and sending an **email notification** automatically.
+It can also capture leads by detecting when a user wants to get in touch and sending an **push notification** automatically on my mobile.
 
 ---
 
@@ -17,9 +17,9 @@ It can also capture leads by detecting when a user wants to get in touch and sen
 ✅ Answers questions about **Pratik Sharma** career, experience, and expertise
 ✅ Uses **Vector Database (RAG)** to enrich context with past data
 ✅ Powered by **LLMs via OpenRouter API**
-✅ Detects potential clients' interest and sends **email notifications automatically**
+✅ Detects potential clients' interest and sends **push notifications automatically**
 ✅ Easy-to-use **Gradio Chat Interface**
-
+✅ Github action to automatically deploy changes to **Huggingface Space**
 ---
 
 ## 🛠 Tech Stack
