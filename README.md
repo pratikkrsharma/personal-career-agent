@@ -20,6 +20,7 @@ It can also capture leads by detecting when a user wants to get in touch and sen
 ✅ Detects potential clients' interest and sends **push notifications automatically**
 ✅ Easy-to-use **Gradio Chat Interface**
 ✅ Github action to automatically deploy changes to **Huggingface Space**
+
 ---
 
 ## 🛠 Tech Stack
