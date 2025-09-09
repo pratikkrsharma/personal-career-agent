@@ -1,3 +1,9 @@
+---
+title: personal-career-agent
+app_file: app.py
+sdk: gradio
+sdk_version: 5.44.1
+---
 # 🧑‍💼 Personal Career Agent
 
 A **personal AI career chatbot** built with **Gradio**, **OpenAI API (via OpenRouter)**, and **Vector Search (RAG)**.

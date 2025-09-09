@@ -4,6 +4,7 @@ import os
 import json
 import ssl
 import smtplib
+import requests
 from email.mime.text import MIMEText
 import gradio as gr
 # from vectordb import load_vector_db
@@ -40,6 +41,18 @@ def notification(message):
         print(f"❌ Failed to send notification: {e}")
 
 
+def push_notification(message: str):
+    try:
+        pushover_user = os.getenv("PUSHOVER_USER")
+        pushover_token = os.getenv("PUSHOVER_TOKEN")
+        pushover_url = "https://api.pushover.net/1/messages.json"
+
+        payload = {"user": pushover_user, "token": pushover_token, "message": message}
+        requests.post(pushover_url, data=payload)
+    except Exception as e:
+        print(f"❌ Failed to send push notification: {e}")
+
+
 class Me:
     def __init__(self):
         self.name = "Pratik Sharma"
@@ -50,7 +63,7 @@ class Me:
         )
 
     def system_prompt(self):
-        return f"""You are acting as {self.name}. You are answering questions on {self.name}'s website, \
+        return f"""You are acting as {self.name}. You are answering questions on {self.name}'s career website, \
         particularly questions related to {self.name}'s career, background, skills, and experience. \
         Start the conversation by asking their name. Once user reply with name, then ask them how I can you help with details related of {self.name}. \
         Be helpful, professional, and engaging like you're speaking to a potential client or employer. \
@@ -84,7 +97,8 @@ class Me:
                 "body": f"A visitor wants to get in touch.\n\n Message:\n '{message}'\n\n LLM Response:\n{reply}"
             }
 
-            notification(json.dumps(message_payload))
+            # notification(json.dumps(message_payload))
+            push_notification(message_payload['body'])
 
             # Replace user response with pre-written contact info
             return f"Thank you! Your messsage has been sent to Pratik. Is there anything else I can helo you with ?\n \
